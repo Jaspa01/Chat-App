@@ -8,6 +8,40 @@
 </head>
 <body>
     
+    <div class="person-selector">
+        <button class="btn person-selector-button active-person" id="mike-selector">Mike
+            <img src="images/img1.jpg" class="my-pic">
+        </button>
+        <button class="btn person-selector-button" id="anna-selector">Anna
+            <img src="images/img2.jpg" class="friend-pic">
+        </button>
+    </div>
+
+    <div class="chat-container">
+        <p class="online-tag">Anna online</p>
+        <div class="chat-messages">
+            <div class="message friend-chat">
+                <div class="message-sender">Mike</div>
+                <div class="message-text">Hey Anna, how are you doing</div>
+                <div class="message-timestamp">8:00pm</div>
+            </div>
+            <div class="message my-chat">
+                <div class="message-sender">Anna</div>
+                <div class="message-text">Hiii Mike, I'm alright. How about you?</div>
+                <div class="message-timestamp">8:15pm</div>
+            </div>
+        </div>
+
+        <form class="chat-input-form">
+            <input type="text" class="chat-input" required placeholder="Type here, Mike...">
+            <button send-button>
+                <img src="images/logo.jpg" class="btn-img">
+            </button>
+        </form>
+        <button class="button clear-chat-btn btn">Clear Chat</button>
+
+            <img src="images/chat.png" class="popup-img">
+    </div>
 
     <script src="script.js"></script>
 </body>
